@@ -1,6 +1,6 @@
 FROM golang:1.15.6-buster
 
-MAINTAINER FF  "lijun"
+MAINTAINER FF  "ff"
 
 RUN sed -i 's#http://deb.debian.org#https://mirrors.163.com#g' /etc/apt/sources.list
 RUN sed -i 's#http://security.debian.org#https://mirrors.163.com#g' /etc/apt/sources.list
