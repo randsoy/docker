@@ -1,0 +1,1 @@
+echo "look project dir"

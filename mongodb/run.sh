@@ -1,0 +1,1 @@
+docker run -d --name mongodb -p 27017:27017 -v /home/hst/docker.dir/mongodb/:/data/db/ mongo:latest
